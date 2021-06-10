@@ -8,12 +8,14 @@ header{
     font-style: oblique;
     color: white;
     display: inline-block;
+    
 }
 
 .subtitulo{
     font-family: serif;
     padding-left: 20px;
-    font-style: inherit;
-    color: white;
+    font-style: italic;
+    color: rgb(255, 244, 244);
     display: inline-block;
+    padding-left: 1100px;
 }
