@@ -1,0 +1,19 @@
+header{
+    background:rgb(42, 0, 53);
+
+}
+.titulo-principal{
+    font-family:serif;
+    padding-left: 20px;
+    font-style: oblique;
+    color: white;
+    display: inline-block;
+}
+
+.subtitulo{
+    font-family: serif;
+    padding-left: 20px;
+    font-style: inherit;
+    color: white;
+    display: inline-block;
+}
