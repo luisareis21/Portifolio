@@ -1,3 +1,4 @@
+
 *{
     padding:0;
     margin: 0;
@@ -127,4 +128,23 @@ footer{
     font-family: monospace;
     margin-top: 10px;
     margin-block-end: 20px;
+
+header{
+    background: rgb(255, 252, 244);
+}
+
+.titulo-principal{
+    font-family:serif;
+    padding-left: 20px;
+    font-style: oblique;
+    color: white;
+    display: inline-block;
+}
+
+.subtitulo{
+    font-family: serif;
+    padding-left: 20px;
+    font-style: inherit;
+    color: white;
+    display: inline-block;
 }
