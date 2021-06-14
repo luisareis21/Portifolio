@@ -5,9 +5,9 @@
 }
 
 body{
-    background-color:rgb(255, 252, 244);
-}
+    background-color: rgb(255, 252, 244);
 
+}
 .box{
     display: flex;
     flex-direction: row;
@@ -56,56 +56,35 @@ body{
 }
 
 .nav a:hover{
-    color:teal
+    color:teal;
 }
 
-#foto{
-    width: 100%;
-    background-color: rgb(255, 252, 244);
-
-}
-
-.box2{
+.box h3{
     text-align: left;
-    background-color: #ececec00;
-    margin-top: 20px;
-    padding: 30px;
-    color: transparent;
+
 }
 
-
-.box2 h2{
-    color: teal;
-    font-size: 28px;
-    font-family: candara;
-    text-transform: uppercase;
+.fas, .fa-award{
+    color:black;
 }
 
-.sobre{
-    color:rgb(0, 0, 0);
-    margin-top: 20px;
-    font-size: 22px;
+main{
+    display:flex;
+    flex-direction: column;
+    padding: 8px;
+    align-items: center;
+    margin-top: 32px;
+    font-size: 20px;
 }
 
-.box3 {
-    text-align: left;
+main > div{
+    padding: 8px;
     
-    margin-top: 27px;
-    padding: 30px;
-    color: transparent;
 }
 
-.box3 h2{
-    color: teal;
-    font-size: 27px;
-    font-family: candara;
-    text-transform: uppercase;
-
-}
-.descricao{
-    color: black;
-    margin-top: 20px;
-    font-size: 22px;
+main h3{
+    color:teal;
+    text-transform: uppercase; 
 }
 
 footer{
@@ -113,18 +92,10 @@ footer{
     padding: 40px 0;
 }
 
-.fab, .fa-linkedin-in{
-    color:black;
-}
-
-.fab, .fa-github{
-    color:black;
-}
-
 .feito{
     color:black;
     font-size: 14px;
     font-family: monospace;
-    margin-top: 10px;
+    margin-top: 350px;
     margin-block-end: 20px;
 }
