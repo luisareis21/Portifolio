@@ -88,14 +88,18 @@ main h3{
 }
 
 footer{
+    display: flex;
+    align-items: flex-end;
     text-align: center;
-    padding: 40px 0;
+    height: 500px;
+    justify-content: center;
+    
 }
 
 .feito{
     color:black;
     font-size: 14px;
     font-family: monospace;
-    margin-top: 350px;
-    margin-block-end: 20px;
+    
+    
 }

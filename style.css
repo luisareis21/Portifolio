@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
 *{
     padding:0;
     margin: 0;
     box-sizing: border-box;
 }
+
 
 body{
     background-color:rgb(255, 252, 244);
@@ -64,48 +66,42 @@ body{
     background-color: rgb(255, 252, 244);
 
 }
-
-.box2{
-    text-align: left;
-    background-color: #ececec00;
-    margin-top: 20px;
-    padding: 30px;
-    color: transparent;
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+.acoordion{
+    width: 100%;
+    padding: 0 10px;
+    border: 2px solid #bbbbbb;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    margin: 10px 0;
+   
 }
 
+.acoordion:hover{
+    background: #bbbbbb;
+    color: rgb(28, 240, 240)
+}
 
-.box2 h2{
+.acoordion h2{
     color: teal;
-    font-size: 28px;
+    font-size: 25px;
     font-family: candara;
     text-transform: uppercase;
 }
 
-.sobre{
-    color:rgb(0, 0, 0);
-    margin-top: 20px;
-    font-size: 22px;
-}
-
-.box3 {
-    text-align: left;
+.painel p{
+    padding: 20px;
     
-    margin-top: 27px;
-    padding: 30px;
-    color: transparent;
-}
-
-.box3 h2{
-    color: teal;
-    font-size: 27px;
-    font-family: candara;
-    text-transform: uppercase;
-
-}
-.descricao{
-    color: black;
-    margin-top: 20px;
+    overflow: hidden;
+    margin-top: 15px;
     font-size: 22px;
+    text-align: left;
+    color: rgb(26, 26, 26);
+    font-family: 'Baloo Tammudu 2', cursive; ;
 }
 
 footer{
@@ -121,7 +117,7 @@ footer{
     color:black;
 }
 
-.feito{
+.rodape{
     color:black;
     font-size: 14px;
     font-family: monospace;
